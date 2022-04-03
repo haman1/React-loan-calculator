@@ -33,7 +33,7 @@ h1{
   min-height: 80vh;
 }
 
-form{
+form, .messages{
   padding:2rem;
   max-width:600px;
   margin: 0 auto;
@@ -42,4 +42,15 @@ form{
 form-label{
   text-align: center;
   font-size:2rem;
+}
+input[type="submit"]:disabled {
+  opacity: .5;
+}
+
+.messages {
+  text-align: center;
+}
+.result {
+  border: 2px solid #00b0d7;
+  padding: 3rem 0;
 }
